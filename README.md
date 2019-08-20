@@ -145,6 +145,12 @@ In order to see your site in action, run Hugo's built-in local server.
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
+Or when you have a hugo server on the remote server:
+
+    $ hugo server --baseURL http://your_ip_address --bind your_ip_address
+
+Now enter [`your_ip_address:1313`](http://your_ip_address:1313) in the address bar of your browser.
+
 
 ## Contributing
 
