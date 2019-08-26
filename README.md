@@ -9,7 +9,7 @@ Icarus is a responsive and customizable theme for bloggers. It's a port of the s
 I assume you've Git installed. Inside the folder of your Hugo site run
 
     $ cd themes
-    $ git clone https://github.com/digitalcraftsman/hugo-icarus-theme.git
+    $ git clone https://github.com/sk-rama/hugo-RaMa-theme.git
 
 You should see a folder called `hugo-icarus-theme` inside the `themes` directory that we created a few moments ago. For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
@@ -154,7 +154,7 @@ Now enter [`your_ip_address:1313`](http://your_ip_address:1313) in the address b
 
 ## Contributing
 
-Have you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/digitalcraftsman/hugo-icarus-theme/issues) to let me know. Or make directly a [pull request](//github.com/digitalcraftsman/hugo-icarus-theme/pulls).
+Have you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/sk-rama/hugo-RaMa-theme/issues) to let me know. Or make directly a [pull request](//github.com/sk-rama/hugo-RaMa-theme/pulls).
 
 
 ## License
