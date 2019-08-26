@@ -128,7 +128,8 @@ a {
 a:visited {
   color: #38b7ea;
 }
-code {
+
+code:not([class*='language']) {
   margin: 0 2px;
   color: #e96900;
   padding: 3px 5px;
@@ -138,6 +139,8 @@ code {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   background-color: #f8f8f8;
 }
+
+
 .outer {
   max-width: 1320px;
   margin: 0 auto;
@@ -263,7 +266,7 @@ code {
 }
 .article-entry hr,
 .widget hr {
-  border: 1px dashed #eceff2;
+  border: 1px solid #e1e2e3;
 }
 .article-entry strong,
 .widget strong {
@@ -2092,6 +2095,7 @@ ol.toc {
   text-align: right;
   padding-right: 20px;
 }
+
 .article-entry .highlight {
   margin: 1.6em 0;
 }

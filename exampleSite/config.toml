@@ -2,7 +2,7 @@ baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Icarus"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "spf13"
+disqusShortname = "mybluelinux-com"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
@@ -11,6 +11,11 @@ footnotereturnlinkcontents = "↩"
 theme = "hugo-icarus-theme"
 # Comment the themesDir option if you use this theme in production
 themesDir = "../.."
+
+# pygmentsUseClassic = false
+pygmentsStyle = "monokai"
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 
 [permalinks]
@@ -30,6 +35,7 @@ themesDir = "../.."
     # gravatar = "you@example.com"
     logo = "css/images/logo.svg"
     disable_mathjax = false # set to true to disable MathJax
+    disable_hljs = true	    # set tu true to disable hljs
 
     # define which types of pages should be shown. By default the type with the most regular pages
     mainSections = ["post"]
@@ -71,7 +77,7 @@ themesDir = "../.."
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # created automatically.
-    github          = "digitalcraftsman"
+    github          = "sk-rama"
     gitlab          = ""
     bitbucket       = ""
     jsfiddle        = ""
@@ -98,7 +104,7 @@ themesDir = "../.."
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "spf13"
+    twitter         = ""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
