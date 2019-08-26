@@ -1,4 +1,4 @@
-# Icarus
+# Hugo RaMa Theme
 
 Icarus is a responsive and customizable theme for bloggers. It's a port of the same-named theme for [Hexo](//hexo.io) made by [Ruipeng Zhang](https://github.com/ppoffice). Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code and optional widgets for the sidebar.
 
@@ -11,12 +11,12 @@ I assume you've Git installed. Inside the folder of your Hugo site run
     $ cd themes
     $ git clone https://github.com/sk-rama/hugo-RaMa-theme.git
 
-You should see a folder called `hugo-icarus-theme` inside the `themes` directory that we created a few moments ago. For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
+You should see a folder called `hugo-RaMa-theme` inside the `themes` directory that we created a few moments ago. For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
 
 ## Setup
 
-Next, navigate to the `exampleSite` folder at `themes/hugo-type-theme/exampleSite/`.  In order to get your site running, you need to copy `config.toml` and all the content of all relevant subfolders such as `data/l10n.toml` into the root folders.
+Next, navigate to the `exampleSite` folder at `themes/hugo-RaMa-theme/exampleSite/`.  In order to get your site running, you need to copy `config.toml` and all the content of all relevant subfolders such as `data/l10n.toml` into the root folders.
 
 To turn the `exampleSite` folder in a standalone demo site the `themesDir` property has been set to `../..`. This way you can preview this theme by running `hugo server` inside `exampleSite` folder.
 
@@ -159,7 +159,7 @@ Have you found a bug or got an idea for a new feature? Feel free to use the [iss
 
 ## License
 
-This theme is released under the MIT license. For more information read the [license](https://github.com/digitalcraftsman/hugo-icarus-theme/blob/master/LICENSE.md).
+This theme is released under the MIT license.
 
 
 ## Acknowledgements
